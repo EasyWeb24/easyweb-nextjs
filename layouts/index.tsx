@@ -1,0 +1,7 @@
+export {default as Hero} from './Hero'
+export {default as UniqueSellingPoints} from './UniqueSellingPoints'
+export {default as MakeTheRightChoice} from './MakeTheRightChoice'
+export {default as Services}from './Services'
+export {default as Testimonials}from './Testimonials'
+export {default as FrequentlyAskedQuestions}from './FrequentlyAskedQuestions'
+export {default as Footer}from './Footer'
