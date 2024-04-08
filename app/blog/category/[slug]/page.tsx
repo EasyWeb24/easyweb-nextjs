@@ -5,8 +5,7 @@ import LayoutWrapper from '@/components/LayoutWrapper';
 import { BlogPost } from '@/types';
 import CategoryComponent from '../../../../components/CategoryComponent'
 
-
-export async function fetchPostsByCategory(categoryName:string) {
+ async function fetchPostsByCategory(categoryName:string) {
   const query = `*[_type == "post" && category[].name == ${categoryName}] | order(publishedAt desc) {
     mainImage {asset -> {url}}, title, description,author->, publishedAt, slug, categories[]->
   }`;
