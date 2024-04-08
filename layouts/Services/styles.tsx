@@ -55,7 +55,7 @@ export const Container = styled.section`
     box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);
     display: inline-block;
     font-weight: 600;
-    margin-top: 96px;
+    margin-top: 48px;
     @media (max-width: 760px) {
       & {
         margin-top: 48px;

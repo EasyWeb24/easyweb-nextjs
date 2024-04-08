@@ -58,7 +58,7 @@ export const BlogPost = styled.section`
     line-height: 1;
     font-size: 36px;
     font-weight: 600;
-    margin-top: 48px;
+    margin-block: 48px;
     position: relative;
     padding-left: 12px;
     &::after {

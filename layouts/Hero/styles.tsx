@@ -102,7 +102,7 @@ export const HeadingTextWrapper = styled.div`
   }
 
   span {
-    margin-bottom: 48px;
+    margin-bottom: 64px;
     line-height: 1;
     font-weight: 500;
     font-size: 30px;

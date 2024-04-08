@@ -169,7 +169,7 @@ animation: wave 30s linear infinite;
 `;
 
 export const SellingPointsWrapper = styled.div`
-  margin-top: 96px;
+  margin-top: 64px;
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;

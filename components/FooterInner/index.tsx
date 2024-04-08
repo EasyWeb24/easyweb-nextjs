@@ -1,7 +1,7 @@
 'use client'
 
 
-import { Container, FooterHeadingText, FooterInfoWrapper, FooterServiceList, RecentPostsWrapper, SectionTextHeading } from "./styles"
+import { Container, FooterHeadingText, FooterInfoWrapper, FooterServiceList, RecentPostsWrapper, SectionTextHeading, SocialIconsWrapper } from "./styles"
 import { BlogPost } from "@/types"
 import Image from "next/image"
 import Link from "next/link"
@@ -29,7 +29,7 @@ const index = ({data}:{data: BlogPost[]}) => {
                 <div className="contact-info">
                   <a href="mailto:info@easyweb.com.ng">info@easyweb.com.ng</a>
   
-                  <a href="tel:+23408128795195">08128795195</a>
+                  <a href="tel:+23408128795195">(+234) 08128795195</a>
                 </div>
               </div>
               <div className="col-lg-3 col-md-12 w-256">
@@ -78,6 +78,17 @@ const index = ({data}:{data: BlogPost[]}) => {
                       ))
                     ) }
                   </RecentPostsWrapper>
+                </div>
+              </div>
+              <div className="col-lg-2 col-md-12">
+                <div>
+                  <FooterHeadingText>
+                    <span>Follow Us On</span>
+                  </FooterHeadingText>
+                  <SocialIconsWrapper>
+                     <a  target="_blank" href="https://web.facebook.com/profile.php?id=100094939703939">
+                     <i className="bi bi-facebook"></i>                     </a>
+                  </SocialIconsWrapper>
                 </div>
               </div>
             </div>

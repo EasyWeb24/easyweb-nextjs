@@ -79,7 +79,7 @@ export const SectionTextHeading = styled.span`
 `;
 
 export const TestimonialsWrapper = styled.div`
-  margin-top: 96px;
+  margin-top: 64px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;

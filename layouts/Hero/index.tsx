@@ -20,10 +20,11 @@ const hero:React.FC = () => {
          </p>
        </HeadingTextWrapper>
        <ButtonWrapper>
-         <Link href="/">
+         <a  target="_blank"
+        rel="noopener noreferrer" href="https://wa.me/+23408128795195">
            <span>Get A Free Quote</span>{' '}
-         </Link>
-         <Link href={'/'}>Hire Us On Fiverr</Link>
+         </a>
+         <Link href={'https://www.fiverr.com/pe/N9w3qa'}>Hire Us On Fiverr</Link>
        </ButtonWrapper>
        <HeroReviewWrapper>
          <span>

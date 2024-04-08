@@ -210,3 +210,15 @@ export const RecentPostsWrapper = styled.div`
     }
   }
 `;
+
+
+export const SocialIconsWrapper = styled.div`
+    margin-top: 24px;
+    display: flex;
+    gap:12px;
+
+  i {
+    font-size: 24px;
+color:hsl(210, 100%, 75%);
+  }
+`

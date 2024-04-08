@@ -80,7 +80,8 @@ const Index: React.FC = () => {
                 </li>
               ))}
             </ul>
-            <a className="navbar-cta">
+            <a  target="_blank"
+        rel="noopener noreferrer" href="https://wa.me/+23408128795195" className="navbar-cta">
               <span>Get a free quote</span>
             </a>
           </div>
