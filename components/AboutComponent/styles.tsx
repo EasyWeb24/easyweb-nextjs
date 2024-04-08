@@ -53,7 +53,7 @@ export const Container = styled.section`
     z-index: -1;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 960px) {
     & {
       padding: 64px 32px;
     }
