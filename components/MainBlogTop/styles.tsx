@@ -7,9 +7,14 @@ export const Container = styled.section`
   @media (max-width: 760px) {
     & {
       padding: 64px 32px;
+      flex-wrap: wrap;
+
     }
   }
-  padding: 128px 384px;
+  padding: 96px 128px;
+  display: flex;
+  gap: 48px;
+  align-items: baseline;
 `;
 
 export const BlogItem = styled.div`

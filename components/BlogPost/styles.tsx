@@ -5,7 +5,7 @@ export const Container = styled.section`
   background-color: hsl(0, 0%, 95%);
   @media (max-width: 760px) {
     & {
-      padding: 64px 32px;
+      padding: 64px 16px;
       width: 100%;
     }
   }

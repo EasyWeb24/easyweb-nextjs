@@ -26,7 +26,8 @@ const Index= ({posts}:{posts:BlogPost[]}) => {
           </li>
         </ol>
       </nav>
-      {posts.map(
+  <div className="blog-items">
+  {posts.map(
       ({
         title,
         author,
@@ -58,7 +59,7 @@ const Index= ({posts}:{posts:BlogPost[]}) => {
           </div>
         </BlogItem>
       )
-    )}      
+    )}    </div>  
     </Container>
   );
 };

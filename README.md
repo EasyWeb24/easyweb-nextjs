@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Sanity Landing Page + Blog
+
+This project is a landing page and blog built with Next.js and Sanity. It uses Bootstrap for layout and styled components for styling.
+
+## Features
+
+- Landing page with sections for showcasing your product or service.
+- Blog with categories and posts fetched from Sanity.
+- Responsive design using Bootstrap grid system and styled components.
+- Customizable styles using styled components.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework for server-side rendering.
+- [Sanity](https://www.sanity.io/) - Headless CMS for managing content.
+- [Bootstrap](https://getbootstrap.com/) - CSS framework for responsive design.
+- [Styled Components](https://styled-components.com/) - CSS-in-JS library for styling components.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/EasyWeb24/easyweb-nextjs
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cd your-repository
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Set up Sanity:
 
-## Learn More
+   - Follow the [Sanity documentation](https://www.sanity.io/docs) to set up your Sanity project and configure your schemas.
 
-To learn more about Next.js, take a look at the following resources:
+4. Set environment variables:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Create a `.env.local` file in the root of your project.
+   - Add your Sanity project ID and dataset name to the `.env.local` file:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+     ```
+     SANITY_PROJECT_ID=your-project-id
+     SANITY_DATASET_NAME=your-dataset-name
+     ```
 
-## Deploy on Vercel
+5. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+
+## Demo
+
+You can see a demo of the project at [Demo URL](https://your-demo-url.com).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

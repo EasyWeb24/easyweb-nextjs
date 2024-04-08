@@ -68,11 +68,7 @@ const index = ({data}:{data: BlogPost[]}) => {
                             >
                               {title}
                             </Link>
-                            <span className="date">
-                              <Moment format="MMMM DD, YYYY">
-                                {publishedAt}
-                              </Moment>
-                            </span>
+                           
                           </div>
                         </div>
                       ))

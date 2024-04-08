@@ -38,7 +38,15 @@ export const Container = styled.section`
       padding: 64px 32px;
     }
   }
-  padding: 96px 384px;
+  padding: 96px 256px;
+  
+  
+
+  .blog-items {
+    display: flex;
+  gap: 48px;
+  align-items: baseline;
+  }
 
   .breadcrumb {
     background-color: hsl(210, 100%, 95%);

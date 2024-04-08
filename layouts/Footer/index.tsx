@@ -30,7 +30,7 @@ async function getBlogPosts() {
 try {
   const res =  await sanityClient
   .fetch(
-    `*[_type == "post"][0...1]{ title, publishedAt, slug, mainImage {asset -> {url}}} | order(publishedAt desc)`
+    `*[_type == "post"][0...1]{ title, publishedAt, slug, mainImage {asset -> {url}}} | order(publishedAt asc)`
   )
   
   return res as BlogPost[]

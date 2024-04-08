@@ -219,6 +219,6 @@ export const SocialIconsWrapper = styled.div`
 
   i {
     font-size: 24px;
-color:hsl(210, 100%, 75%);
+color:hsl(210, 100%, 45%);
   }
 `
