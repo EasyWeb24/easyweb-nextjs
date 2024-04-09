@@ -13,10 +13,16 @@ import {
   import Image from 'next/image';
   import Link from 'next/link';
 import { BlogPost as BlogPostType, Category } from '@/types';
+import Head from 'next/head';
 
 const index = ({blogPostData, recentPosts, categories}:{blogPostData: BlogPostType[], recentPosts:BlogPostType[], categories:Category[]}) => {
   return (
     <Container>
+      <Head>
+<title>
+{blogPostData[0].categories[0].title
+}</title>
+      </Head>
         <div className="blog-post-wrapper">
           <BlogPost>
             {<Image alt={''} width={'30000'} height='30000' src={blogPostData[0].mainImage.asset.url} />}

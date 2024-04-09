@@ -31,7 +31,7 @@ const Index: React.FC = () => {
           dedicated team of experts that produce web designs that boost your
           brand while also keeping a good design and an amazing user experience.
           Our goal is to make your business grow, gain more customers and stand
-          out lorem
+          out.
         </p>
       </div>
     </Container></LayoutWrapper>

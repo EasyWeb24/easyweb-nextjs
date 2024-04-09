@@ -61,10 +61,12 @@ import Link from 'next/link';
             ({ serviceImage, serviceDescription, serviceName, serviceTitle }) => (
               <ServiceItem key={serviceName}>
                 <div>
-                  <Image
+                 <Link href={`/services#${serviceName}`}>
+                 <Image
                     src={serviceImage}
                     alt="A MacBook Pro next to other devices"
                   />
+                 </Link>
                   <div>
                     <Link href={`/services#${serviceName}`}>{serviceTitle}</Link>
                     <p>{serviceDescription}</p>

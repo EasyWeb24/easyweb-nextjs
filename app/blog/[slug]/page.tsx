@@ -24,7 +24,7 @@
   
     const recentPostsResult = await sanityClient
     .fetch(
-      `*[_type == "post" && slug.current == '${slug}'][0...2]{ title, publishedAt, slug} | order(publishedAt desc)`
+      `*[_type == "post" && slug.current == '${slug}'][0...3]{ title, publishedAt, slug} | order(publishedAt desc)`
     )
     return {post: postRes as BlogPostType[], categories: categoriesRes, recentPosts: recentPostsResult as BlogPostType[]};
 
