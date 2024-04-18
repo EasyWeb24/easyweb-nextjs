@@ -60,13 +60,8 @@ export const BlogPost = styled.section`
     font-weight: 600;
     margin-block: 48px;
     position: relative;
-    padding-left: 12px;
  
-    @media (max-width: 760px) {
-      & {
-        padding-left: 12px;
-      }
-    }
+  
     position: relative;
     @media (max-width: 760px) {
       & {
