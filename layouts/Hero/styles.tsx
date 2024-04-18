@@ -82,6 +82,11 @@ export const ButtonWrapper = styled.div`
       display: inline-block;
       color: hsl(210, 100%, 55%);
       font-weight: 500;
+
+      &:hover {
+        color: hsl(210, 100%, 65%);
+
+      }
     }
   }
 
