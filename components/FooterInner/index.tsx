@@ -82,8 +82,8 @@ const index = ({data}:{data: BlogPost[]}) => {
                     <span>Follow Us On</span>
                   </FooterHeadingText>
                   <SocialIconsWrapper>
-                     <a  target="_blank" href="https://web.facebook.com/profile.php?id=100094939703939">
-                     <i className="bi bi-facebook"></i>                     </a>
+                     <a className="social-item"  target="_blank" href="https://web.facebook.com/profile.php?id=100094939703939">
+                     Facebook                     </a>
                   </SocialIconsWrapper>
                 </div>
               </div>

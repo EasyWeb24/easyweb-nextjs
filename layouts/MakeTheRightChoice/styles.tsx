@@ -31,7 +31,6 @@ export const Container = styled.section`
   padding: 96px 128px;
   background: linear-gradient(30deg, hsl(210, 100%, 25%), hsl(210, 100%, 35%));
   color: hsl(210, 100%, 95%);
-  border-top: 3px solid hsl(210, 100%, 45%);
   p:first-of-type {
     line-height: 1.5;
     margin-bottom: 64px;
@@ -44,25 +43,7 @@ export const SectionTextHeading = styled.span`
   font-weight: 600;
   position: relative;
 
-  &::after {
-    position: absolute;
-    content: '';
-    border-radius: 16px;
-    top: 24px;
-    width: 48px;
-    height: 4px;
-    transform: translateY(16px);
-    background-color: hsl(210, 100%, 45%);
-    left: 0;
-
-    @media (max-width: 760px) {
-      & {
-        height: 3px;
-        width: 24px;
-        transform: translateY(8px);
-      }
-    }
-  }
+ 
 
   @media (max-width: 760px) {
     & {

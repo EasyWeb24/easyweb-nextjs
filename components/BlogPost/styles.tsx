@@ -61,16 +61,7 @@ export const BlogPost = styled.section`
     margin-block: 48px;
     position: relative;
     padding-left: 12px;
-    &::after {
-      position: absolute;
-      content: '';
-      width: 3px;
-      height: 100%;
-      background-color: hsl(210, 100%, 65%);
-      left: 0;
-      top: 0;
-      border-radius: 16px;
-    }
+ 
     @media (max-width: 760px) {
       & {
         padding-left: 12px;

@@ -109,16 +109,7 @@ export const HeadingTextWrapper = styled.div`
     display: inline-block;
     position: relative;
 
-    &::after {
-      position: absolute;
-      content: '';
-      bottom: 0;
-      width: 48px;
-      height: 4px;
-      transform: translateY(8px);
-      background-color: hsl(210, 100%, 45%);
-      left: 0;
-    }
+   
 
     @media (max-width: 760px) {
       & {

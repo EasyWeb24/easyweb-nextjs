@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Roboto } from 'next/font/google'
 import InstallBootstrap from "@/components/InstallBootstrap";
 import StyledComponentsRegistry from '../lib/registry'
+import Script from "next/script";
 
 
  
@@ -28,6 +29,23 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      />
+
+      <Script id="easyweb" strategy="lazyOnload">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}',{
+          page_path: window.location.pathname,
+        });
+         `}
+      </Script>
+      </head>
       <InstallBootstrap/>
       <body className={roboto.className}>
       <StyledComponentsRegistry>

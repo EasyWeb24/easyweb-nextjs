@@ -47,16 +47,7 @@ export const SectionTextHeading = styled.span`
     margin-right: 4px;
   }
 
-  &::after {
-    position: absolute;
-    content: '';
-    top: 24px;
-    width: 100%;
-    height: 3px;
-    background-color: hsl(210, 100%, 45%);
-    left: 0;
-    border-radius: 10px;
-  }
+ 
 `;
 
 export const FooterInfoWrapper = styled.div`
@@ -112,20 +103,9 @@ export const FooterHeadingText = styled.div`
   text-transform: capitalize;
   position: relative;
   display: inline-block;
-  span {
-    margin-left: 8px;
-  }
+  
 
-  &::after {
-    position: absolute;
-    content: '';
-    width: 4px;
-    height: 100%;
-    background-color: hsl(210, 100%, 45%);
-    left: 0;
-    top: 0;
-    border-radius: 16px;
-  }
+ 
 `;
 
 export const FooterServiceList = styled.ul`
@@ -221,4 +201,9 @@ export const SocialIconsWrapper = styled.div`
     font-size: 24px;
 color:hsl(210, 100%, 45%);
   }
+
+.social-item {
+  text-decoration: none;
+  color: inherit;
+}
 `

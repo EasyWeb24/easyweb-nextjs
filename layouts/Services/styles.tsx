@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Container = styled.section`
   padding: 96px 128px;
-  border-top: 3px solid hsl(210, 100%, 45%);
   position: relative;
 
   &::before {
@@ -104,22 +103,7 @@ export const SectionTextHeading = styled.span`
       align-items: start;
     }
   }
-  &::after {
-    position: relative;
-    content: '';
-    width: 96px;
-    height: 4px;
-    bottom: 0;
-    background-color: hsl(210, 100%, 45%);
-    border-radius: 16px;
-    left: 0;
-    @media (max-width: 760px) {
-      & {
-        height: 3px;
-        width: 24px;
-      }
-    }
-  }
+ 
 
   @media (max-width: 760px) {
     & {
